@@ -1,0 +1,69 @@
+<scroll-view scroll-y="true" height="100%">
+  <swiper indicator-dots="true" autoplay="true" circular="true" interval="5000" duration="1000">
+    <swiper-item wx:for="{{slides}}" wx:for-item="slide" wx:key="this">
+      <image class="slide-img" src="{{slide}}"></image>
+    </swiper-item>
+  </swiper>
+  <view class="navs">
+    <view class="nav-item" catchtap="catchTapCategory" data-cate-id="0" data-cate-name="潮流资讯">
+      <view class="icon-wrap">
+        <icon class="iconfont icon-zixun" />
+      </view>
+      <text>潮流资讯</text>
+    </view>
+    <view class="nav-item" catchtap="catchTapCategory" data-cate-id="1" data-cate-name="产品供应">
+      <view class="icon-wrap">
+        <icon class="iconfont icon-xifu" />
+      </view>
+      <text>产品供应</text>
+    </view>
+    <view class="nav-item" catchtap="catchTapCategory" data-cate-id="2" data-cate-name="男装品牌">
+      <view class="icon-wrap">
+        <icon class="iconfont icon-pinpai" />
+      </view>
+      <text>男装品牌</text>
+    </view>
+    <view class="nav-item" catchtap="catchTapCategory" data-cate-id="3" data-cate-name="人物访谈">
+      <view class="icon-wrap">
+        <icon class="iconfont icon-nanz" />
+      </view>
+      <text>人物访谈</text>
+    </view>
+  </view>
+  <view class="separate"></view>
+  <view class="cate-container">
+    <view class="category-title">
+      <icon class="iconfont icon-baokuan" style="color:#e98f36;" />
+      <text class="name">每周爆款</text>
+    </view>
+    <block>
+      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
+        <image class="head-img" src="{{indexAd[0]}}" mode="aspectFit"></image>
+      </view>
+    </block>
+  </view>
+  <view class="separate"></view>
+  <view class="cate-container">
+    <view class="category-title">
+      <icon class="iconfont icon-xinpin" style="color:#0e932e;" />
+      <text class="name">新品上架</text>
+    </view>
+    <block>
+      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
+        <image class="head-img" src="{{indexAd[1]}}" mode="aspectFit"></image>
+      </view>
+    </block>
+  </view>
+  <view class="separate"></view>
+  <view class="cate-container">
+    <view class="category-title">
+      <icon class="iconfont icon-hot" style="color:#d81e06;" />
+      <text class="name">热销商品</text>
+    </view>
+    <block>
+      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
+        <image class="head-img" src="{{indexAd[2]}}" mode="aspectFit"></image>
+      </view>
+    </block>
+  </view>
+</scroll-view>
