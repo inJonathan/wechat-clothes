@@ -15,7 +15,6 @@ Page({
 
         this.setData({
             currentCases: currentCases
-            // caseId: currentCases.caseId
         });
 
         // 设置页面标题

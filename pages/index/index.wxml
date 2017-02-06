@@ -37,8 +37,8 @@
       <text class="name">每周爆款</text>
     </view>
     <block>
-      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
-        <image class="head-img" src="{{indexAd[0]}}" mode="aspectFit"></image>
+      <view class="item" bindtap="bindShowProduct" data-article-id="{{indexAd[0].articleId}}">
+        <image class="head-img" src="{{indexAd[0].adImgUrl}}" mode="aspectFit"></image>
       </view>
     </block>
   </view>
@@ -49,8 +49,8 @@
       <text class="name">新品上架</text>
     </view>
     <block>
-      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
-        <image class="head-img" src="{{indexAd[1]}}" mode="aspectFit"></image>
+      <view class="item" bindtap="bindShowProduct" data-article-id="{{indexAd[1].articleId}}">
+        <image class="head-img" src="{{indexAd[1].adImgUrl}}" mode="aspectFit"></image>
       </view>
     </block>
   </view>
@@ -61,8 +61,8 @@
       <text class="name">热销商品</text>
     </view>
     <block>
-      <view class="item" bindtap="bindShowProduct" data-id="{{item.id}}">
-        <image class="head-img" src="{{indexAd[2]}}" mode="aspectFit"></image>
+      <view class="item" bindtap="bindShowProduct" data-article-id="{{indexAd[2].articleId}}">
+        <image class="head-img" src="{{indexAd[2].adImgUrl}}" mode="aspectFit"></image>
       </view>
     </block>
   </view>
