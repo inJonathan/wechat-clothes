@@ -1,0 +1,13 @@
+.banner {
+    width: 100%;
+    height: 400rpx;
+}
+.content1 {
+    width: 100%;
+    height: 2899rpx;
+    margin-bottom: 70rpx;
+}
+.bottom {
+    width: 100%;
+    height: 263rpx;
+}

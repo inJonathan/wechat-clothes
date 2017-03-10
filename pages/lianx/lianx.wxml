@@ -1,0 +1,5 @@
+<scroll-view scroll-y="true" height="100%">
+  <image class="banner" src="http://oml7in5bu.bkt.clouddn.com/nz/lxbanner.jpg"></image>
+  <image class="content1" src="http://oml7in5bu.bkt.clouddn.com/nz/lximg1.png"></image>
+  <image class="connect-btn" src="http://oml7in5bu.bkt.clouddn.com/nz/lximg2.png" catchtap="callus"></image>
+</scroll-view>
