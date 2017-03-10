@@ -1,0 +1,5 @@
+<scroll-view scroll-y="true" height="100%">
+  <image class="banner" src="http://wx4.sinaimg.cn/large/005wb4xfgy1fbz867dbfej30ku0b4gqo.jpg"></image>
+  <image class="content1" src="http://oml7in5bu.bkt.clouddn.com/nz/pfimg2.png"></image>
+  <image class="bottom" src="http://oml7in5bu.bkt.clouddn.com/nz/bottom.jpg" catchtap="callus"></image>
+</scroll-view>

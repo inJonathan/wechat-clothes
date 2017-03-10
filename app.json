@@ -1,13 +1,45 @@
 {
-  "pages":[
+  "pages": [
+    "pages/lianx/lianx",
+    "pages/pifa/pifa",
     "pages/index/index",
-    "pages/category/category",
-    "pages/detail/detail"
+    "pages/dingz/dingz"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#cdcdcd",
+    "selectedColor": "#3cc51f",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "男装招商",
+        "iconPath": "images/zs.png",
+        "selectedIconPath": "images/zss.png"
+      },
+      {
+        "pagePath": "pages/pifa/pifa",
+        "text": "男装批发",
+        "iconPath": "images/pf.png",
+        "selectedIconPath": "images/pfs.png"
+      },
+      {
+        "pagePath": "pages/dingz/dingz",
+        "text": "男装定制",
+        "iconPath": "images/dz.png",
+        "selectedIconPath": "images/dzs.png"
+      },
+      {
+        "pagePath": "pages/lianx/lianx",
+        "text": "联系我们",
+        "iconPath": "images/lx.png",
+        "selectedIconPath": "images/lxs.png"
+      }
+    ]
   }
 }
